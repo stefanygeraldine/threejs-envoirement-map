@@ -2,30 +2,27 @@
 
 
 
-- [https://stefanygeraldine.github.io/threejs-scroll-animation/](https://stefanygeraldine.github.io/threejs-scroll-animation/)
+- [https://stefanygeraldine.github.io/threejs-envoirement-map/](https://stefanygeraldine.github.io/threejs-envoirement-map/)
 
 ![Project Screenshot](public/img_1.png)
-# React Three.js Scroll Animations and Parallax Effects
 
-This project is a modern web application built with React and Vite, incorporating Three.js for 3D graphics. The application leverages scroll animations and parallax effects to create an engaging and interactive user experience.
+# Three.js Environment Map Practice
 
-## Technologies Used
+This project is a practice exercise using Three.js to create and implement an environment map. The environment map technique is often used to add realistic reflections and refractions to 3D objects in a scene, enhancing the overall visual quality and realism.
 
-- **React**: A JavaScript library for building user interfaces, facilitating the creation of reusable UI components.
-- **Vite**: A build tool that provides a faster and leaner development experience for modern web projects.
-- **Three.js**: A JavaScript library for creating and displaying animated 3D graphics in the browser.
-- **GSAP (GreenSock Animation Platform)**: A powerful library for creating high-performance animations.
+## Table of Contents
 
-## Key Features
+- [Introduction](#introduction)
+- [Features](#features)
 
-1. **3D Graphics with Three.js**
-    - Integration of Three.js to render 3D models and scenes.
-    - Utilization of WebGL for high-performance graphics rendering.
+## Introduction
 
-2. **Scroll Animations**
-    - Implementation of smooth scroll animations using GSAP.
-    - Triggering animations based on the user's scroll position for dynamic content presentation.
+The purpose of this project is to practice and demonstrate the use of environment maps in Three.js. An environment map is a technique used in 3D graphics to simulate reflections on surfaces. By mapping a texture onto the scene's background, objects can reflect their surroundings, making them appear more realistic.
 
-3. **Parallax Effects**
-    - Creation of parallax scrolling effects to provide depth and a more immersive browsing experience.
-    - Use of layered images and content that move at different speeds when scrolling.
+## Features
+
+- Set up a basic Three.js scene with a camera and renderer.
+- Create a cube map texture to be used as the environment map.
+- Apply the environment map to various materials and geometries.
+- Enable reflections and refractions on 3D objects.
+- Interactive controls to explore the scene and observe the effects of the environment map.
